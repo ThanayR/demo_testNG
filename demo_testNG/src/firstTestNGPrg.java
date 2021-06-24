@@ -69,8 +69,9 @@ public class firstTestNGPrg {
 	
 	//@Test(enabled = false)
 	//@Test(groups = {"PerformanceTest"})
-	@Test(priority = 0)
+	@Test(priority = 0, groups = {"PerformanceTest"})
 	public void test2() {
 		System.out.println("Inside 1st testNG Class => Test Case # 2");
 	}
+	
 }

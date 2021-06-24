@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumIntegration">
+      <class name="demo_Assert">
         <methods>
-          <include name="setup"/>
-          <include name="classInitialize"/>
-          <include name="tearDown"/>
-          <include name="test6"/>
-          <include name="terminate"/>
+          <include name="test55"/>
         </methods>
-      </class> <!-- SeleniumIntegration -->
+      </class> <!-- demo_Assert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

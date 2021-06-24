@@ -3,12 +3,12 @@ import org.testng.annotations.Test;
 
 public class demo_ddt {
 	
-  @Test(dataProvider = "supplyData")
+  @Test(dataProvider = "dp1")
   public void test5(String name, int salary) {
 	  System.out.println(name + " ---- " + salary);
   }
   
-  @DataProvider
+  @DataProvider(name = "dp1")
   public Object[][] supplyData() {
 	  Object[][] data = new Object[3][2];
 	  data[0][0] = "Nupur";

@@ -56,7 +56,7 @@ public class SeleniumIntegration {
 		softAssert.assertAll();
 	}
 	
-	//@Test (dependsOnMethods = {"test6"})
+	//@Test (dependsOnMethods = {"test6","test156"})
 	@Test 
 	public void test7() {		 
 		driver.get("http://www.slksoftware.com");
